@@ -1,0 +1,114 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+header {
+    height: 100vh;
+    background: url(../images/hero-image.jpg) no-repeat bottom left fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Arima Madurai', cursive;
+}
+
+h1 , h2 {
+    font-family: 'Arima Madurai', cursive;
+    text-transform: uppercase;
+}
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/*----------------------- BUTTONS */
+
+.btn {
+    width: 16rem;
+    padding: 1rem;
+    margin: 1rem 2rem;
+    border-radius: 1.2rem;
+}
+
+.btn--signup {
+    background-color: #E17131;
+    border: none;
+}
+
+.btn--more {
+    background-color: #fffcf9;
+    border: none;
+}
+
+.btn--more:hover,
+.btn--more:active,
+.btn--signup:hover,
+.btn--signup:active {
+    background-color: #ffcb97;
+    border-color: #ffcb97;
+}
+
+/*----------------------- HOME PAGE */
+
+.nav-container {
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.navbar {
+    position: absolute;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+
+.nav--text {
+    font-size: 1.6rem;
+    margin-left: 2rem;
+}
+
+.nav-item a :hover,
+.nav-item a :active {
+    color: #e17131;
+}
+
+.logo--text {
+    font-size: 2rem;
+
+}
+
+.hero--text {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    margin-bottom: 4rem;
+
+}
+
+.hero-text-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*----------------------- ABOUT */
+
+#about {
+    height: 100vh;
+}
