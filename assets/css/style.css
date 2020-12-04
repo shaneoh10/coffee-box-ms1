@@ -1,23 +1,27 @@
-html {
+html, body {
 	padding: 0;
 	margin: 0;
+    width: 100%;
+    overflow-x: hidden;
 	font-size: 16px;
 	background-color: #fafafa;
-	font-family: "Arima Madurai", cursive;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 header {
 	height: 100vh;
 	background: url(../images/hero-image.jpg) no-repeat bottom left fixed;
 	background-size: cover;
-	font-family: "Arima Madurai", cursive;
 }
 
 h1,
 h2 {
-	font-family: "Arima Madurai", cursive;
 	text-transform: uppercase;
+    font-style: italic;
 }
+
+/*----------------------- REUSABLE */
+
 .opaque-overlay {
 	position: absolute;
 	top: 0;
@@ -25,6 +29,18 @@ h2 {
 	height: 100vh;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.section--heading {
+    font-size: 2.4rem;
+    margin-top: 1.8rem;
+}
+
+.h--r {
+    width: 10rem;
+    height: 0.2rem;
+    background-color: #e17131;
 }
 
 /*----------------------- BUTTONS */
@@ -66,7 +82,7 @@ h2 {
 	position: absolute;
 	border: 0;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.85);
+	background-color: rgba(0, 0, 0, 0.4);
 	z-index: 1;
 }
 
@@ -119,7 +135,9 @@ h2 {
 
 #about {
 	height: 50vh;
+    background-color: #fafafa;
 }
+
 
 /*----------------------- MEDIA QUERIES */
 
@@ -132,6 +150,10 @@ h2 {
 	.nav--text a:active {
 		border-bottom: none;
 	}
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.85);
+    }
+
 }
 
 @media screen and (max-width: 576px) {
@@ -139,4 +161,27 @@ h2 {
 		font-size: 2rem;
 		margin-bottom: 1.6rem;
 	}
+
+    .navbar {
+        padding: 0 1rem;
+    }
+    
+    .hero--small {
+        font-size: 0.8rem;
+    }
+    
+    .btn {
+        width: 12rem;
+        padding: 0.8rem;
+	    margin: 0.8rem 1.6rem;
+    }
+
+        .section--heading {
+        font-size: 2rem;
+        margin-top: 1.6rem;
+    }
+
+    .h--r {
+        width: 6rem;
+    }
 }
