@@ -16,9 +16,8 @@ header {
 
 h1,
 h2 {
-	text-transform: uppercase;
-    font-family: 'Hepta Slab', serif;
-    font-weight: 500;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
 }
 
 /*----------------------- REUSABLE */
@@ -34,12 +33,13 @@ h2 {
 
 
 .section--heading {
-    font-size: 2.4rem;
-    margin-top: 1.8rem;
+    font-size: 2rem;
+    margin-top: 1.6rem;
+    text-transform: lowercase;
 }
 
 .h--r {
-    width: 10rem;
+    width: 6rem;
     height: 0.2rem;
     background-color: #e17131;
 }
@@ -47,9 +47,9 @@ h2 {
 /*----------------------- BUTTONS */
 
 .btn {
-	width: 16rem;
-	padding: 1rem;
-	margin: 1rem 2rem;
+    width: 12rem;
+    padding: 0.8rem;
+	margin: 0.8rem 1.6rem;
 	border: solid #e17131 2px;
 	border-radius: 5rem;
 	transition: 0.5s;
@@ -79,12 +79,14 @@ h2 {
 }
 
 .navbar {
-	padding: 0 2rem;
-	position: absolute;
+    padding: 0 1rem;
+	position: fixed;
+    top: 0;
 	border: 0;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.85);
 	z-index: 1;
+    transition: 0.3s;
 }
 
 .navbar .navbar-toggler {
@@ -101,7 +103,7 @@ h2 {
 
 .nav--text a:hover,
 .nav--text a:active {
-	border-bottom: solid #e17131 1px;
+    border-bottom: none;
 }
 
 .logo--text {
@@ -111,18 +113,19 @@ h2 {
 .navbar img {
 	margin: 0;
 	padding: 0;
-	width: 10rem;
+	width: 8rem;
 }
 
 .hero--text {
 	color: #fafafa;
-	font-size: 3rem;
-	margin-bottom: 4rem;
+    font-size: 2.2rem;
+	margin-bottom: 1.6rem;
 }
 
 .hero--small {
 	color: #e8e8e8;
     font-weight: 300;
+    font-size: 0.8rem;
 }
 
 .hero-text-container {
@@ -135,54 +138,50 @@ h2 {
 /*----------------------- ABOUT */
 
 #about {
-	height: 50vh;
+	height: 150vh;
     background-color: #fafafa;
 }
 
 
 /*----------------------- MEDIA QUERIES */
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
 	.navbar img {
-		width: 8rem;
+		width: 10rem;
 	}
 
 	.nav--text a:hover,
 	.nav--text a:active {
-		border-bottom: none;
+		border-bottom: solid #e17131 1px;
 	}
-    .navbar {
-        background-color: rgba(0, 0, 0, 0.85);
-    }
-
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) {
 	.hero--text {
-		font-size: 2rem;
-		margin-bottom: 1.6rem;
+        font-size: 3.2rem;
+	    margin-bottom: 4rem;
 	}
 
     .navbar {
-        padding: 0 1rem;
+        padding: 0 2rem;
     }
     
     .hero--small {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     
     .btn {
-        width: 12rem;
-        padding: 0.8rem;
-	    margin: 0.8rem 1.6rem;
+        width: 16rem;
+	    padding: 1rem;
+	    margin: 1rem 2rem;
     }
 
-        .section--heading {
-        font-size: 2rem;
-        margin-top: 1.6rem;
+    .section--heading {
+        font-size: 2.6rem;
+        margin-top: 1.8rem;
     }
 
     .h--r {
-        width: 6rem;
+        width: 10rem;
     }
 }
