@@ -47,17 +47,17 @@ h2 {
 /*----------------------- BUTTONS */
 
 .btn {
-    width: 12rem;
-    padding: 0.8rem;
-	margin: 0.8rem 1.6rem;
-	border: solid #e17131 2px;
 	border-radius: 5rem;
 	transition: 0.5s;
     font-size: 1rem;
+    background-color: #e17131;
 }
 
-.btn--signup {
-	background-color: #e17131;
+.btn--signup, .btn--more {
+    border: solid #e17131 2px;
+    width: 12rem;
+    padding: 0.8rem;
+	margin: 0.8rem 1.6rem;
 }
 
 .btn--more {
@@ -161,15 +161,43 @@ h2 {
 /*----------------------- TESTIMONIALS */
 
 #testimonials {
+    margin: 0;
     padding: 1rem;
-    height: 50vh;
-    /* background-color: #f0efeb; */
     background: url(../images/section-image.jpg) no-repeat bottom left fixed;
 	background-size: cover;
 }
 
+.testimonial-container {
+    margin-bottom: 2rem;
+}
+
 #testimonials .section--heading {
     color: #fafafa;
+}
+
+.testimonial--text {
+    color: #e8e8e8;
+}
+
+.quote--container {
+    background-color: rgba(0,0,0, 0.6);
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
+
+.quote--container img {
+    border-radius: 50%;
+}
+
+/*----------------------- PRICES */
+
+.price--box {
+    border: solid black 1px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #f0efeb;
 }
 
 /*----------------------- MEDIA QUERIES */
@@ -197,14 +225,18 @@ h2 {
     }
 
     .about--step p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+    }
+
+    .testimonial--text {
+        font-size: 1.2rem;
     }
 
 }
 
 @media screen and (min-width: 576px) {
 	.hero--text {
-        font-size: 3.2rem;
+        font-size: 3.4rem;
 	    margin-bottom: 4rem;
 	}
 
@@ -216,7 +248,7 @@ h2 {
         font-size: 1rem;
     }
     
-    .btn {
+    .btn--signup, .btn--more {
         width: 14rem;
 	    padding: 1rem;
 	    margin: 1rem 2rem;
@@ -224,11 +256,12 @@ h2 {
     }
 
     .section--heading {
-        font-size: 2.8rem;
+        font-size: 3rem;
         margin-top: 1.8rem;
     }
 
     .h--r {
         width: 10rem;
     }
+
 }
