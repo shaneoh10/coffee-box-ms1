@@ -51,10 +51,10 @@ h2 {
 	transition: 0.5s;
     font-size: 1rem;
     background-color: #e17131;
+    border: solid #e17131 2px;
 }
 
 .btn--signup, .btn--more {
-    border: solid #e17131 2px;
     width: 12rem;
     padding: 0.8rem;
 	margin: 0.8rem 1.6rem;
@@ -64,10 +64,16 @@ h2 {
 	background-color: #fafafa;
 }
 
-.btn--more:hover,
-.btn--more:active,
-.btn--signup:hover,
-.btn--signup:active {
+.btn--prices {
+    width: 60%;
+}
+
+.btn--form {
+    width: 50%;
+}
+
+.btn:active,
+.btn:hover {
 	background-color: #ffcb97;
 }
 
@@ -183,24 +189,69 @@ h2 {
     background-color: rgba(0,0,0, 0.6);
     margin-top: 3rem;
     margin-bottom: 2rem;
-    padding: 1rem;
+    padding: 2rem 1rem;
     border-radius: 0.8rem;
-}
-
-.quote--container img {
-    border-radius: 50%;
 }
 
 /*----------------------- PRICES */
 
+.prices-container {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
 .price--box {
-    border: solid black 1px;
+    border: solid #d3d0cb 1px;
+    border-radius: 0.8rem;
     margin: 1rem;
     padding: 1rem;
     background-color: #f0efeb;
 }
 
+.plan--heading {
+    border-bottom: 1px #d3d0cb solid;
+    padding-bottom: 0.4rem;
+}
+
+.plan--price {
+    font-size: 1.8rem; 
+}
+
+.small--month {
+    font-size: 0.8rem;
+}
+
+/*----------------------- CONTACT */
+
+#contact {
+    background-color: #d3d0cb;
+    padding: 1rem;
+}
+
+.contact-container {
+    width: 85%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form--item {
+    margin-bottom: 2rem;
+}
+
+/*----------------------- FOOTER */
+
+#footer {
+    height: 20vh;
+    background-color: #65524d;
+}
+
 /*----------------------- MEDIA QUERIES */
+
+@media screen and (min-width: 1200px) {
+    .btn--prices {
+        width: 50%;
+    } 
+}
 
 @media screen and (min-width: 992px) {
 	.navbar img {
@@ -216,7 +267,7 @@ h2 {
         padding: 2rem 4rem;
     }
 
-    #about {
+    #about, #prices {
         padding: 1rem 3rem;
     }
 
@@ -224,13 +275,17 @@ h2 {
         font-size: 5rem;
     }
 
-    .about--step p {
+    .about--step p, .testimonial--text {
         font-size: 1.2rem;
     }
 
-    .testimonial--text {
-        font-size: 1.2rem;
-    }
+    .contact-container {
+        width: 60%;
+    }  
+
+    .btn--form {
+        width: 30%;
+    }     
 
 }
 
@@ -263,5 +318,9 @@ h2 {
     .h--r {
         width: 10rem;
     }
+
+    .btn--form {
+        width: 40%;
+    }  
 
 }
