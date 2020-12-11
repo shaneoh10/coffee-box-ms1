@@ -1,203 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>COFFEE BOX</title>
-		<link rel="preconnect" href="https://fonts.gstatic.com" />
-        <!-- BOOTSTRAP CDN  -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
-        <!-- IMPORTED FONTS  -->
-        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;1,300;1,400;1,500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-        <!-- FONTAWESOME CDN  -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"  crossorigin="anonymous" />
-        <!-- LOCAL CSS STYLESHEET  -->
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-	</head>
 
-	<body>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COFFEE BOX</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- BOOTSTRAP CDN  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+    <!-- IMPORTED FONTS  -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <!-- FONTAWESOME CDN  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" crossorigin="anonymous" />
+    <!-- LOCAL CSS STYLESHEET  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
 
-        <!-- NAVBAR & HOME PAGE  -->
+<body>
 
-		<header>
-			<div class="opaque-overlay">&nbsp;</div>
-			<section id="home">
-				<div class="container-fluid nav-container">
-					<nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
-						<a class="navbar-brand logo--text" href="#home"><img src="assets/images/coffee-box-light.png" alt="Coffee box logo" /></a>
-						<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-							<ul class="navbar-nav nav--text">
-								<li class="nav-item">
-									<a class="nav-link nav--text" href="#home">Home</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link nav--text" href="#about">About</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link nav--text" href="#prices">Prices</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link nav--text" href="#contact">Contact Us</a>
-								</li>
-							</ul>
-						</div>
-					</nav>
-				</div>
-				<div class="container-fluid hero-text-container">
-					<div class="row">
-						<div class="col-12">
-							<section class="text-center container-fluid">
-								<h1 class="hero--text">A new coffee surprise every month.</h1>
-                                <p class="hero--small">Sign up today to get coffee from Ireland's finest boutique roasters delivered straight to your door.</p>
-								<a href="#prices" class="btn btn-lg btn--signup">Sign Up!</a>
-								<a href="#about" class="btn btn-lg btn--more">Tell Me More</a>
-							</section>
-						</div>
-					</div>
-				</div>
-			</section>
-		</header>
+    <!-- NAVBAR & HOME PAGE  -->
 
-        <!-- HOW IT WORKS SECTION  -->
-
-		<section id="about">
-			<h2 class="text-center section--heading">How it works</h2>
-            <hr class="h--r">
-            <div class="container-fluid about-container text-center">
-                <div class="row">
-                    <div class="col-12 col-md-4 about--step">
-                        <i class="fas fa-check-circle about--icon"></i>
-                        <h3>Step 1</h3>
-                        <p>Choose the coffee delivery subscription that best suits your caffeine requirements.</p>
+    <header>
+        <div class="opaque-overlay">&nbsp;</div>
+        <section id="home">
+            <div class="container-fluid nav-container">
+                <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+                    <a class="navbar-brand logo--text" href="#home"><img src="assets/images/coffee-box-light.png" alt="Coffee box logo" /></a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                        data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav nav--text">
+                            <li class="nav-item">
+                                <a class="nav-link nav--text" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav--text" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav--text" href="#prices">Prices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav--text" href="#contact">Contact Us</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-12 col-md-4 about--step">
-                        <i class="fas fa-truck about--icon"></i>
-                        <h3>Step 2</h3>
-                        <p>Our experts select the coffee from Ireland's best roasters and deliver it straight to your door.</p>
-                    </div>
-                    <div class="col-12 col-md-4 about--step">
-                        <i class="fas fa-mug-hot about--icon"></i>
-                        <h3>Step 3</h3>
-                        <p>Sit back, relax and enjoy amazing coffee at your own discretion.</p>
-                    </div>
-                </div>
+                </nav>
             </div>
-		</section>
-
-        <!-- TESTIMONIAL SECTION  -->
-
-        <section id="testimonials">
-            <h2 class="text-center section--heading">Our customers love us</h2>
-            <hr class="h--r">
-            <div class="container-fluid testimonial-container text-center">
+            <div class="container-fluid hero-text-container">
                 <div class="row">
-                    <div class="col-12 col-md-5 mx-auto quote--container">
-                        <p class="testimonial--text"><em>"The coffee is fantastic and it saves me the time and effort of trying to find a decent roast. I can't wait for the next delivery from Coffee Box!"</em></p>
-                        <img src="assets/images/testimonial-1.jpg" alt="woman-image" height="80" width="80" class="rounded-circle">
-                        <span class="testimonial--text">- Jane Doe</span>
-                    </div>
-                    <div class="col-12 col-md-5 mx-auto quote--container">
-                        <p class="testimonial--text"><em>"I love trying coffee from different roasters and Coffee Box makes it so much easier to do that. The hassle of searching for decent coffee is gone."</em></p>
-                        <img src="assets/images/testimonial-2.jpg" alt="man-image" width="80"  height="80" class="rounded-circle">
-                        <span class="testimonial--text">- John Doe</span>
+                    <div class="col-12">
+                        <section class="text-center container-fluid">
+                            <h1 class="hero--text">A new coffee surprise every month.</h1>
+                            <p class="hero--small">Sign up today to get coffee from Ireland's finest boutique roasters
+                                delivered straight to your door.</p>
+                            <a href="#prices" class="btn btn-lg btn--signup">Sign Up!</a>
+                            <a href="#about" class="btn btn-lg btn--more">Tell Me More</a>
+                        </section>
                     </div>
                 </div>
             </div>
         </section>
+    </header>
 
-        <!-- SUBSCRIPTION PRICE SECTION -->
+    <!-- HOW IT WORKS SECTION  -->
 
-        <section id="prices">
-            <h2 class="text-center section--heading">prices</h2>
-            <hr class="h--r">
-            <div class="container-fluid text-center prices-container">
-                <div class="row">
-                    <div class="col-10 col-sm-5 col-lg-3 mx-auto price--box text-center">
-                        <h3 class="plan--heading">PRO</h3>
-                        <p class="plan--price">€18.99 <span class="small--month">/ month</span></p>
-                        <p>1 box delivered monthly</p>
-                        <p>2 cups per day</p>
-                        <p>Free delivery!</p>
-                        <a href="#" class="btn btn--prices mx-auto">Sign Up!</a>
-                    </div>
-                    
-                    <div class="col-10 col-sm-5 col-lg-3 mx-auto price--box text-center">
-                        <h3 class="plan--heading">CASUAL</h3>
-                        <p class="plan--price">€12.99 <span class="small--month">/ month</span></p>
-                        <p>1 box delivered monthly</p>
-                        <p>1 cup per day</p>
-                        <p>Free delivery!</p>
-                        <a href="#" class="btn btn--prices mx-auto">Sign Up!</a>
-                    </div>
-                    
-                    <div class="col-10 col-sm-5 col-lg-3 mx-auto price--box text-center">
-                        <h3 class="plan--heading">ONE-OFF</h3>
-                        <p class="plan--price">€10.99</p>
-                        <p>1 month's supply delivered</p>
-                        <p>1 cup per day</p>
-                        <p>Free delivery!</p>
-                        <a href="#" class="btn btn--prices mx-auto">Sign Up!</a>
-                    </div>
-                    
+    <section id="about">
+        <h2 class="text-center section--heading">How it works</h2>
+        <hr class="h--r">
+        <div class="container-fluid about-container text-center">
+            <div class="row">
+                <div class="col-12 col-md-4 about--step">
+                    <i class="fas fa-check-circle about--icon"></i>
+                    <h3>Step 1</h3>
+                    <p>Choose the coffee delivery subscription that best suits your caffeine requirements.</p>
+                </div>
+                <div class="col-12 col-md-4 about--step">
+                    <i class="fas fa-truck about--icon"></i>
+                    <h3>Step 2</h3>
+                    <p>Our experts select the coffee from Ireland's best roasters and deliver it straight to your door.
+                    </p>
+                </div>
+                <div class="col-12 col-md-4 about--step">
+                    <i class="fas fa-mug-hot about--icon"></i>
+                    <h3>Step 3</h3>
+                    <p>Sit back, relax and enjoy amazing coffee at your own discretion.</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- CONTACT SECTION  -->
+    <!-- TESTIMONIAL SECTION  -->
 
-        <section id="contact">
-            <h2 class="text-center section--heading">contact us</h2>
-            <hr class="h--r">
-            <!-- form template from https://getbootstrap.com/docs/4.5/components/forms/ -->
-           <div class="container-fluid contact-container">
-                <form>
-                    <div class="form-group form--item">
-                        <label for="exampleFormControlInput1">Name:</label>
-                        <input type="text" class="form-control" id="name" required>
-                    </div>
-                    <div class="form-group form--item">
-                        <label for="exampleFormControlInput1">Email address:</label>
-                        <input type="email" class="form-control" id="email" required>
-                    </div>
-                    <div class="form-group form--item">
-                        <label for="exampleFormControlTextarea1">Leave a message:</label>
-                        <textarea class="form-control" id="message" rows="5"></textarea>
-                    </div>
-                    <div class="form-check form--item">
-                        <input class="form-check-input" type="checkbox" value="" id="newsletter">
-                        <label class="form-check-label" for="defaultCheck1">Subscribe to newsletter?</label>
-                    </div>
-                    <div class="d-flex justify-content-center"><button type="submit" class="btn btn--form">Submit</button></div>
-                </form>
+    <section id="testimonials">
+        <h2 class="text-center section--heading">Our customers love us</h2>
+        <hr class="h--r">
+        <div class="container-fluid testimonial-container text-center">
+            <div class="row">
+                <div class="col-12 col-md-5 mx-auto quote--container">
+                    <p class="testimonial--text"><em>"The coffee is fantastic and it saves me the time and effort of
+                            trying to find a decent roast. I can't wait for the next delivery from Coffee Box!"</em></p>
+                    <img src="assets/images/testimonial-1.jpg" alt="woman-image" height="80" width="80"
+                        class="rounded-circle">
+                    <span class="testimonial--text">- Jane Doe</span>
+                </div>
+                <div class="col-12 col-md-5 mx-auto quote--container">
+                    <p class="testimonial--text"><em>"I love trying coffee from different roasters and Coffee Box makes
+                            it so much easier to do that. The hassle of searching for decent coffee is gone."</em></p>
+                    <img src="assets/images/testimonial-2.jpg" alt="man-image" width="80" height="80"
+                        class="rounded-circle">
+                    <span class="testimonial--text">- John Doe</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SUBSCRIPTION PRICE SECTION -->
+
+    <section id="prices">
+        <h2 class="text-center section--heading">prices</h2>
+        <hr class="h--r">
+        <div class="container-fluid text-center prices-container">
+            <div class="row">
+                <div class="col-10 col-sm-5 col-lg-3 mx-auto price--box text-center">
+                    <h3 class="plan--heading">PRO</h3>
+                    <p class="plan--price">€18.99 <span class="small--month">/ month</span></p>
+                    <p>1 box delivered monthly</p>
+                    <p>2 cups per day</p>
+                    <p>Free delivery!</p>
+                    <a href="#" class="btn btn--prices mx-auto">Sign Up!</a>
+                </div>
+
+                <div class="col-10 col-sm-5 col-lg-3 mx-auto price--box text-center">
+                    <h3 class="plan--heading">CASUAL</h3>
+                    <p class="plan--price">€12.99 <span class="small--month">/ month</span></p>
+                    <p>1 box delivered monthly</p>
+                    <p>1 cup per day</p>
+                    <p>Free delivery!</p>
+                    <a href="#" class="btn btn--prices mx-auto">Sign Up!</a>
+                </div>
+
+                <div class="col-10 col-sm-5 col-lg-3 mx-auto price--box text-center">
+                    <h3 class="plan--heading">ONE-OFF</h3>
+                    <p class="plan--price">€10.99</p>
+                    <p>1 month's supply delivered</p>
+                    <p>1 cup per day</p>
+                    <p>Free delivery!</p>
+                    <a href="#" class="btn btn--prices mx-auto">Sign Up!</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION  -->
+
+    <section id="contact">
+        <h2 class="text-center section--heading">contact us</h2>
+        <hr class="h--r">
+        <!-- form template from https://getbootstrap.com/docs/4.5/components/forms/ -->
+        <div class="container-fluid contact-container">
+            <form>
+                <div class="form-group form--item">
+                    <label for="exampleFormControlInput1">Name:</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group form--item">
+                    <label for="exampleFormControlInput1">Email address:</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group form--item">
+                    <label for="exampleFormControlTextarea1">Leave a message:</label>
+                    <textarea class="form-control" id="message" rows="5"></textarea>
+                </div>
+                <div class="form-check form--item">
+                    <input class="form-check-input" type="checkbox" value="" id="newsletter">
+                    <label class="form-check-label" for="defaultCheck1">Subscribe to newsletter?</label>
+                </div>
+                <div class="d-flex justify-content-center"><button type="submit" class="btn btn--form">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER  -->
+
+    <footer>
+        <section id="footer">
+            <div class="container-fluid footer-container text-center">
+                <ul class="footer--icons list-inline">
+                    <li class="list-inline-item"><a href="https://facebook.com/" target="_blank"><i
+                                class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="https://instagram.com/" target="_blank"><i
+                                class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="https://linkedin.com/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a></li>
+                    <li class="list-inline-item"><a href="https://twitter.com/" target="_blank"><i
+                                class="fab fa-twitter"></i></a></li>
+                </ul>
+                <p>Copyright &copy; 2020 Coffee Box Ltd.</p>
             </div>
         </section>
+    </footer>
 
-        <!-- FOOTER  -->
+    <!-- JQUERY CDN  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP JAVASCRIPT CDN  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <!-- LOCAL JAVASCRIPT  -->
+    <script src="script.js"></script>
 
-        <footer>
-            <section id="footer">
-                <div class="container-fluid footer-container text-center">
-                    <ul class="footer--icons list-inline">
-                        <li class="list-inline-item"><a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                        <li class="list-inline-item"><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                    </ul>
-                    <p class=>Copyright &copy; 2020 Coffee Box Ltd.</p>
-                </div>
-            </section>
-        </footer>
+</body>
 
-        <!-- JQUERY CDN  -->
-		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
-        <!-- BOOTSTRAP JAVASCRIPT CDN  -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <!-- LOCAL JAVASCRIPT  -->
-        <script src="script.js" type="text/javascript"></script>
-
-	</body>
 </html>
