@@ -23,12 +23,11 @@
 
     <!-- NAVBAR & HOME PAGE  -->
 
-    <header>
+    <header id="home">
         <div class="opaque-overlay">&nbsp;</div>
-        <section id="home">
             <div class="container-fluid nav-container">
                 <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
-                    <a class="navbar-brand logo--text" href="#home">coffee box</a>
+                    <a class="navbar-brand logo--text" href="#home">Coffee Box</a>
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                         data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -56,7 +55,7 @@
                 <div class="row">
                     <div class="col-12">
                         <section class="text-center container-fluid">
-                            <h1 class="hero--text">A new coffee surprise every month.</h1>
+                            <h2 class="hero--text">A new coffee surprise every month.</h2>
                             <p class="hero--small">Sign up today to get coffee from Ireland's finest boutique roasters
                                 delivered straight to your door.</p>
                             <a href="#prices" class="btn btn-lg btn--signup">Sign Up!</a>
@@ -65,7 +64,6 @@
                     </div>
                 </div>
             </div>
-        </section>
     </header>
 
     <!-- HOW IT WORKS SECTION  -->
@@ -133,7 +131,8 @@
                     <p>1 box delivered monthly</p>
                     <p>2 cups per day</p>
                     <p>Free delivery!</p>
-                    <a href="#" class="btn btn--prices mx-auto">Sign Up!</a>
+                    <button class="btn btn--prices mx-auto" data-toggle="modal" data-target="#signUpModal">Sign
+                        Up!</button>
                 </div>
 
                 <div class="col-10 col-sm-5 col-lg-3 mx-auto price--box text-center">
@@ -142,7 +141,8 @@
                     <p>1 box delivered monthly</p>
                     <p>1 cup per day</p>
                     <p>Free delivery!</p>
-                    <a href="#" class="btn btn--prices mx-auto">Sign Up!</a>
+                    <button class="btn btn--prices mx-auto" data-toggle="modal" data-target="#signUpModal">Sign
+                        Up!</button>
                 </div>
 
                 <div class="col-10 col-sm-5 col-lg-3 mx-auto price--box text-center">
@@ -151,7 +151,8 @@
                     <p>1 month's supply delivered</p>
                     <p>1 cup per day</p>
                     <p>Free delivery!</p>
-                    <a href="#" class="btn btn--prices mx-auto">Sign Up!</a>
+                    <button class="btn btn--prices mx-auto" data-toggle="modal" data-target="#signUpModal">Sign
+                        Up!</button>
                 </div>
 
             </div>
@@ -165,22 +166,22 @@
         <hr class="h--r">
         <!-- form template from https://getbootstrap.com/docs/4.5/components/forms/ -->
         <div class="container-fluid contact-container">
-            <form>
+            <form id="contact-form">
                 <div class="form-group form--item">
-                    <label for="exampleFormControlInput1">Name:</label>
+                    <label for="name">Name:</label>
                     <input type="text" class="form-control" id="name" required>
                 </div>
                 <div class="form-group form--item">
-                    <label for="exampleFormControlInput1">Email address:</label>
+                    <label for="email">Email address:</label>
                     <input type="email" class="form-control" id="email" required>
                 </div>
                 <div class="form-group form--item">
-                    <label for="exampleFormControlTextarea1">Leave a message:</label>
+                    <label for="message">Leave a message:</label>
                     <textarea class="form-control" id="message" rows="5"></textarea>
                 </div>
                 <div class="form-check form--item">
                     <input class="form-check-input" type="checkbox" value="" id="newsletter">
-                    <label class="form-check-label" for="defaultCheck1">Subscribe to newsletter?</label>
+                    <label class="form-check-label" for="newsletter">Subscribe to newsletter?</label>
                 </div>
                 <div class="d-flex justify-content-center"><button type="submit" class="btn btn--form">Send!</button>
                 </div>
@@ -188,10 +189,44 @@
         </div>
     </section>
 
+    <!-- SIGN UP MODAL  -->
+    <!-- Bootsrap modal copied from code institute whiskey drop project and edited to suit project -->
+
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up to Coffee Box</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="signupEmail"
+                                aria-describedby="signupEmail" placeholder="Enter email" />
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter Password" />
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword"
+                                placeholder="Repeat Password" />
+                        </div>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- FOOTER  -->
 
-    <footer>
-        <section id="footer">
+    <footer id="footer">
             <div class="container-fluid footer-container text-center">
                 <ul class="footer--icons list-inline">
                     <li class="list-inline-item"><a href="https://facebook.com/" target="_blank"><i
@@ -205,7 +240,6 @@
                 </ul>
                 <p>Copyright &copy; 2020 Coffee Box Ltd.</p>
             </div>
-        </section>
     </footer>
 
     <!-- JQUERY CDN  -->
