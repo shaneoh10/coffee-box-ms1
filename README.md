@@ -1,5 +1,7 @@
 # Website for Coffee Box
 
+![Coffee Box](assets/documents/coffee-box-mockup.png)
+
 ## Code Institute Milestone Project 1 : User-Centric Front End Development
 
 Coffee Box is a fictional company that offers a monthly coffee delivery subscription service.  The website will contain information on the services offered by Coffee Box with the goal of acquiring new customers to sign up for the service. The website will have a warm, friendly feel to it which will encourage users to trust Coffee Box and sign up to the service. Users will have access to a contact form to easily send any queries relating to the service directly to Coffee Box.
