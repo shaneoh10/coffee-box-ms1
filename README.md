@@ -45,3 +45,31 @@ I have structured the site with:
 ## Skeleton
 
 I used Balsamiq to design wireframes for mobile, tablet and desktop. These wireframes can be viewed [here](https://github.com/shaneoh10/coffee-box-ms1/blob/master/assets/documents/coffee-box.pdf)
+
+## Surface 
+
+#### Colours
+
+I chose a warm neutral colour palette to contrast with earthy background images to create a relaxed and comfortable feel, as would be associated with enjoying a cup of coffee.
+
+* #FAFAFA - off white colour
+* #E17131 - Spanish orange
+* #FFCB97 - Peach crayota
+* #E8E8E8 - Platinum
+* #D3D0CB - Timberwolf
+* #F0EFEB - Isabelline
+* #65524D - Umber
+
+#### Typography 
+
+I have chosen JetBrains Mono as the main font throughout the website and Dancing Script for the main headers to provide the users with a friendly and welcoming feel.
+
+## Features 
+
+#### Across the page: 
+* The navbar will be visible across the whole web page with a feature where it is hidden on scroll down and re-appears at the top of the screen when the user begins to scroll up. The navbar shows the Coffee Box logo on the left and there are four website sections available to travel to on the right-hand side: Home, About, Prices, Contact Us. The navbar also collapses into a hamburger icon on smaller screens.
+
+#### Home Section: 
+* A background image of a cup of coffee and coffee beans. This high-quality image will give users a first impression of a warm and welcoming professional service.  The image also ties in with the warm and earthy colour palette chosen for the site.
+* A central main heading containing the company slogan and sub-heading providing a brief description of the service, quickly draw user attention to the centre of the page.
+* Two buttons, a sign-up call-to-action and a tell me more button to encourage users to either sign up to the service or continue to browse the website to learn more about the service.  The sign-up button is an orange colour to attract user attention.
