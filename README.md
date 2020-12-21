@@ -91,3 +91,19 @@ I have chosen JetBrains Mono as the main font throughout the website and Dancing
 
 #### Footer:
 * The footer includes social media links to Facebook, Instagram, LinkedIn and Twitter, and a copyright notice. I decided to have minimal content in the footer so that the users’ attention would not be drawn away from the main page content.
+
+## Technologies Used
+* HTML5 - This is the main language of the website content
+* CSS3 - This is used to style the web pages
+* Bootstrap v4.5 - The project uses Bootstrap elements to help with form and design
+* JavaScript, jQuery - Used to implement the functionality of the burger button and the navbar appear on scroll up feature
+* GitHub - Used to store the code and host the live website
+* Gitpod - This is the IDE I used for the project
+* Git - Used within Gitpod as the version control system
+* Chrome Developer Tools - Used within Google Chrome to inspect the web pages. This is helpful when designing responsive features and troubleshooting bugs.
+* Balsamiq - I created the project wireframes with this software
+* Google Fonts - Used to import multiple fonts to the project
+* Fontawesome.com - Used to import icons
+* Techsini.com - Used this website to generate the multi-device website mockup
+
+## Testing
