@@ -75,3 +75,19 @@ I have chosen JetBrains Mono as the main font throughout the website and Dancing
 * A background image of a cup of coffee and coffee beans. This high-quality image will give users a first impression of a warm and welcoming professional service.  The image also ties in with the warm and earthy colour palette chosen for the site.
 * A central main heading containing the company slogan and sub-heading providing a brief description of the service, quickly draw user attention to the centre of the page.
 * Two buttons, a sign-up call-to-action and a tell me more button to encourage users to either sign up to the service or continue to browse the website to learn more about the service.  The sign-up button is an orange colour to attract user attention.
+
+#### About Section: 
+* This section contains information in three simple steps how the Coffee Box service works. The process of how the service works is broken down to three steps so customers understand how it works and how simple and convenient it is to use.
+
+#### Testimonials Section:
+* This section contains 2 testimonials from satisfied customers explaining how they love the service. The purpose of this section is to give users confidence in Coffee Box as a company and in the service it provides.
+
+#### Prices 
+* The prices section is where users can see the various subscription services on offer. Each subscription option contains the price and the amount of coffee received per month so that users can decide based on their coffee requirement and budget. The sign-up buttons open a bootstrap modal which does not have any function at this stage.
+
+#### Contact Section: 
+* A Bootstrap contact form with space for name, email, message, and option to subscribe to newsletter. There is a button to send placed at the bottom of the form.
+* The name and email fields are required, and the email will have to be the correct format to be submitted.
+
+#### Footer:
+* The footer includes social media links to Facebook, Instagram, LinkedIn and Twitter, and a copyright notice. I decided to have minimal content in the footer so that the users’ attention would not be drawn away from the main page content.
