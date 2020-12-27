@@ -107,3 +107,21 @@ I have chosen JetBrains Mono as the main font throughout the website and Dancing
 * Techsini.com - Used this website to generate the multi-device website mockup
 
 ## Testing
+
+I used Chrome Developer Tools throughout the entire project when making any changes to CSS or HTML. It is a great tool for seeing how changes will look on various screen sizes and for testing the website responsiveness to different device types. I found it very useful when deciding font sizes and positioning of sections and content to help me with providing the best user experience on mobile devices and on desktop. As it was a mobile first design, by testing with Chrome Developer Tools I added a lot of media queries to improve the experience on larger screen sizes. I am happy with the design of the website and I think that it is clear and easy to read on mobile, tablet and desktop devices.
+
+When I first viewed the website home page on Chrome Developer Tools I noticed that because the website was designed for mobile first, the heading and navbar text was small and difficult to read. To improve the user experience I added media queries to increase the font size of all headings and text on larger devices.
+
+I also encountered an issue with the navbar item text. On certain larger screen sizes, when hovering on nav items, all the nav items would get pushed upwards which visually was not appealing and hindered the user experience. I adjusted the CSS and upon further testing the issue was resolved.
+
+I used lighthouse to run final tests on the website. It was flagged that the website did not have a meta description, an issue which I resolved following the test. It was also flagged that the website performance was being affected by the large file size of the testimonial images. I replaced these images with similar images of a much smaller file size to enhance website performance and reduce loading times.
+
+One criticism I have is that I feel that the website is a bit cramped in some sections on larger screen sizes but with a mobile first design in mind I am happy with the project overall.
+
+### W3C Validator Testing
+
+I ran validator tests at the end of the project with the W3C Validator for both HTML and CSS. Here is an example of the HTML errors that I found:
+
+![W3C Validator](assets/documents/w3c-validator.png)
+
+I investigated and corrected these errors and on the final test there were no errors for HTML or CSS.
