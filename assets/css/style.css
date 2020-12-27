@@ -277,10 +277,10 @@ h2 {
         font-size: 2rem;
     }
 
-	.nav--text a:hover,
+	/* .nav--text a:hover,
 	.nav--text a:active {
 		border-bottom: solid #e17131 1px;
-	}
+	} */
 
     .about--step {
         padding: 2rem 4rem;
