@@ -125,3 +125,58 @@ I ran validator tests at the end of the project with the W3C Validator for both 
 ![W3C Validator](assets/documents/w3c-validator.png)
 
 I investigated and corrected these errors and on the final test there were no errors for HTML or CSS.
+
+### Web Browser and Device Testing
+
+I have viewed the website on Google Chrome and Firefox on my laptop and on a larger desktop screen and I found no issues with the features or the viewing experience. 
+
+Although I had already tested the website for various device sizes on Chrome Developer Tools, I also tested the website on a Samsung Galaxy S9 mobile phone to verify the results and everything works and looks OK.
+
+### Testing User Stories
+
+#### I want to view various subscription costs to determine if the service is within budget
+
+1. Go to Home page
+2. Scroll to Prices section or click on Prices on navbar
+3. User can view information on subscription options and prices and choose as they wish
+
+#### I want to view a simple breakdown of information on how the service works
+
+1. Go to Home page
+2. Scroll to About section, click About on navbar, or click on Tell Me More button in the centre of the screen
+3. User can view a breakdown of information on how the service works
+
+#### I want to be able to view the website on various devices (mobile, tablet, desktop)
+
+1. Website has been tested and works on various devices so user should be able to access the website on any device they use
+
+#### I want to easily contact Coffee Box with any queries regarding the service
+
+1. Scroll to or click on Contact on the navbar to go to the Contact section
+2. User can now view a contact form
+3. User can fill out form with name, email, message and checkbox if they want to subscribe to newsletter
+4. Click submit to send form, form will only send if Name field is filled and email is in correct format
+5. Subscribe to newsletter is not required, it is entirely up to the user
+
+![Contact Section](assets/documents/contact.png)
+
+#### I want to be able to instinctively navigate the website to efficiently find any information required
+
+1. As user scrolls down through page all relevant information is layed out in hierarchy of importance
+2. User can instantly go to a section of the page by clicking that section on the navbar
+3. Navbar re-appears when the user scrolls up at any point on the page to allow user the option to travel to the desired section
+
+#### I want to view testimonials from staisfied customers to authenticate the services of Coffee Box
+
+1. Go to Home page
+2. Scroll down through website content and below the About section the testimonials are visible
+3. Alternatively, when a user travels directly to About section the testimonials are visible at the bottom of the screen on larger devices hinting the user to scroll down
+
+![Testimonials](assets/documents/testimonials.png)
+
+#### I want to be easily directed to any social media channels to connect with Coffee Box to stay up to date with any offers or other viewing material
+
+1. All social media icons are clearly displayed on the footer of the website
+2. Individually checked each icon to verify that when clicked it brings the user to the correct social media website
+
+### Deployment
