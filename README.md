@@ -189,6 +189,10 @@ The Coffee Box website was deployed on GitHub using the following setup:
 5. Clicked on the new link provided to view the live website. [https://shaneoh10.github.io/coffee-box-ms1/](https://shaneoh10.github.io/coffee-box-ms1/)
 6. The live website is automatically updated every time a new commit is pushed to the project repository
 
-The project can be downloaded as a .zip file by clicking on the "Code" button in the project repository and then clicking "Download ZIP". Alternatively the project can be cloned by entering `git clone git@github.com:shaneoh10/coffee-box-ms1.git` in the terminal. More information on cloning the project can be found [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+The project can be downloaded as a .zip file by clicking on the "Code" button in the project repository and then clicking "Download ZIP". 
+
+Alternatively the project can be cloned by entering `git clone git@github.com:shaneoh10/coffee-box-ms1.git` in the terminal. 
+
+More information on cloning the project can be found [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 ### Credits
