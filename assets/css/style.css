@@ -1,335 +1,283 @@
 html, body {
-	padding: 0;
-	margin: 0;
-    width: 100%;
-    overflow-x: hidden;
-	font-size: 16px;
-	background-color: #fafafa;
-    font-family: 'JetBrains Mono', monospace;
-    scroll-behavior: smooth;
+     padding: 0;
+     margin: 0;
+     width: 100%;
+     overflow-x: hidden;
+     font-size: 16px;
+     background-color: #fafafa;
+     font-family: 'JetBrains Mono', monospace;
+     scroll-behavior: smooth;
 }
-
-header {
-	height: 100vh;
-	background: url(../images/hero-image.jpg) no-repeat bottom left fixed;
-	background-size: cover;
+ header {
+     height: 100vh;
+     background: url(../images/hero-image.jpg) no-repeat bottom left fixed;
+     background-size: cover;
 }
-
-h1,
-h2 {
-    font-family: 'Dancing Script', cursive;
-    font-weight: 400;
+ h1, h2 {
+     font-family: 'Dancing Script', cursive;
+     font-weight: 400;
 }
 
 /*----------------------- REUSABLE */
 
-.opaque-overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100vh;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.3);
+ .opaque-overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100vh;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.3);
 }
-
-.section--heading {
-    font-size: 2.2rem;
-    margin-top: 1.4rem;
-    text-transform: lowercase;
+ .section--heading {
+     font-size: 2.2rem;
+     margin-top: 1.4rem;
+     text-transform: lowercase;
 }
-
-.h--r {
-    width: 6rem;
-    height: 0.2rem;
-    background-color: #e17131;
+ .h--r {
+     width: 6rem;
+     height: 0.2rem;
+     background-color: #e17131;
 }
 
 /*----------------------- BUTTONS */
 
-.btn {
-	border-radius: 5rem;
-	transition: 0.5s;
-    font-size: 1rem;
-    background-color: #e17131;
-    border: solid #e17131 2px;
+ .btn {
+     border-radius: 5rem;
+     transition: 0.5s;
+     font-size: 1rem;
+     background-color: #e17131;
+     border: solid #e17131 2px;
 }
-
-.btn--signup, .btn--more {
-    width: 12rem;
-    padding: 0.8rem;
-	margin: 0.8rem 1.6rem;
+ .btn--signup, .btn--more {
+     width: 12rem;
+     padding: 0.8rem;
+     margin: 0.8rem 1.6rem;
 }
-
-.btn--more {
-	background-color: #fafafa;
+ .btn--more {
+     background-color: #fafafa;
 }
-
-.btn--prices {
-    width: 60%;
+ .btn--prices {
+     width: 60%;
 }
-
-.btn--form {
-    width: 12rem;
+ .btn--form {
+     width: 12rem;
 }
-
-.btn:active,
-.btn:hover {
-	background-color: #ffcb97;
+ .btn:active, .btn:hover {
+     background-color: #ffcb97;
 }
 
 /*----------------------- HOME PAGE */
 
-.nav-container {
-	border: 0;
-	padding-left: 0;
-	padding-right: 0;
+ .nav-container {
+     border: 0;
+     padding-left: 0;
+     padding-right: 0;
 }
-
-.navbar {
-    padding: 0 1rem;
-	position: fixed;
-    top: 0;
-	border: 0;
-	width: 100%;
-    background-color: rgba(0, 0, 0, 0.85);
-	z-index: 1;
-    transition: 0.3s;
+ .navbar {
+     padding: 0 1rem;
+     position: fixed;
+     top: 0;
+     border: 0;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.85);
+     z-index: 1;
+     transition: 0.3s;
 }
-
-.navbar .navbar-toggler {
-	border: 0;
+ .navbar .navbar-toggler {
+     border: 0;
 }
-
-.nav--text a {
-	padding: 0;
-	font-size: 1.2rem;
-    margin: 1rem;
-    transition: 0.3s;
+ .nav--text a {
+     padding: 0;
+     font-size: 1.2rem;
+     margin: 1rem;
+     transition: 0.3s;
 }
-
-.nav--text a:hover,
-.nav--text a:active {
-    color: #ffcb97 !important;
+ .nav--text a:hover, .nav--text a:active {
+     color: #ffcb97 !important;
 }
-
-.logo--text {
-    font-size: 1.6rem;
-    padding: 1rem 0;
+ .logo--text {
+     font-size: 1.6rem;
+     padding: 1rem 0;
 }
-
-.hero--text {
-	color: #fafafa;
-    font-size: 2.2rem;
-	margin-bottom: 1.6rem;
+ .hero--text {
+     color: #fafafa;
+     font-size: 2.2rem;
+     margin-bottom: 1.6rem;
 }
-
-.hero--small {
-	color: #e8e8e8;
-    font-weight: 300;
-    font-size: 0.8rem;
+ .hero--small {
+     color: #e8e8e8;
+     font-weight: 300;
+     font-size: 0.8rem;
 }
-
-.hero-text-container {
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+ .hero-text-container {
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
 }
 
 /*----------------------- ABOUT */
 
-#about {
-    background-color: #fafafa;
-    padding: 1rem;
-    margin-bottom: 1rem;
+ #about {
+     background-color: #fafafa;
+     padding: 1rem;
+     margin-bottom: 1rem;
 }
-
-.about--step {
-    padding: 2rem;
+ .about--step {
+     padding: 2rem;
 }
-
-.about--step h3 {
-    margin-bottom: 1rem;
+ .about--step h3 {
+     margin-bottom: 1rem;
 }
-
-.about--icon {
-    color: #e17131;
-    font-size: 4rem;
-    margin: 1.8rem 0;
+ .about--icon {
+     color: #e17131;
+     font-size: 4rem;
+     margin: 1.8rem 0;
 }
 
 /*----------------------- TESTIMONIALS */
 
-#testimonials {
-    margin: 0;
-    padding: 1rem;
-    background: url(../images/section-image.jpg) no-repeat bottom left fixed;
-	background-size: cover;
+ #testimonials {
+     margin: 0;
+     padding: 1rem;
+     background: url(../images/section-image.jpg) no-repeat bottom left fixed;
+     background-size: cover;
 }
-
-.testimonial-container {
-    margin-bottom: 2rem;
+ .testimonial-container {
+     margin-bottom: 2rem;
 }
-
-#testimonials .section--heading {
-    color: #fafafa;
+ #testimonials .section--heading {
+     color: #fafafa;
 }
-
-.testimonial--text {
-    color: #e8e8e8;
+ .testimonial--text {
+     color: #e8e8e8;
 }
-
-.quote--container {
-    background-color: rgba(0,0,0, 0.6);
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    padding: 2rem 1rem;
-    border-radius: 0.8rem;
+ .quote--container {
+     background-color: rgba(0,0,0, 0.6);
+     margin-top: 3rem;
+     margin-bottom: 2rem;
+     padding: 2rem 1rem;
+     border-radius: 0.8rem;
 }
 
 /*----------------------- PRICES */
 
-.prices-container {
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+ .prices-container {
+     margin-top: 2rem;
+     margin-bottom: 3rem;
 }
-
-.price--box {
-    border: solid #d3d0cb 1px;
-    border-radius: 0.8rem;
-    margin: 1rem;
-    padding: 1rem;
-    background-color: #f0efeb;
+ .price--box {
+     border: solid #d3d0cb 1px;
+     border-radius: 0.8rem;
+     margin: 1rem;
+     padding: 1rem;
+     background-color: #f0efeb;
 }
-
-.plan--heading {
-    border-bottom: 1px #d3d0cb solid;
-    padding-bottom: 0.4rem;
+ .plan--heading {
+     border-bottom: 1px #d3d0cb solid;
+     padding-bottom: 0.4rem;
 }
-
-.plan--price {
-    font-size: 1.8rem; 
+ .plan--price {
+     font-size: 1.8rem;
 }
-
-.small--month {
-    font-size: 0.8rem;
+ .small--month {
+     font-size: 0.8rem;
 }
 
 /*----------------------- CONTACT */
 
-#contact {
-    background-color: #f0efeb;
-    padding: 1rem;
+ #contact {
+     background-color: #f0efeb;
+     padding: 1rem;
 }
-
-.contact-container {
-    width: 95%;
-    padding: 2rem;
-    margin-bottom: 2rem;
+ .contact-container {
+     width: 95%;
+     padding: 2rem;
+     margin-bottom: 2rem;
 }
-
-.form--item {
-    margin-bottom: 2rem;
+ .form--item {
+     margin-bottom: 2rem;
 }
 
 /*----------------------- FOOTER */
 
-#footer {
-    background-color: #65524d;
-    padding: 2rem 1rem;
+ #footer {
+     background-color: #65524d;
+     padding: 2rem 1rem;
 }
-
-.footer--icons li {
-    font-size: 2rem;
-    padding: 1rem;
+ .footer--icons li {
+     font-size: 2rem;
+     padding: 1rem;
 }
-
-.footer--icons li a {
-    transition: 0.5s;
-    color: #d3d0cb;
+ .footer--icons li a {
+     transition: 0.5s;
+     color: #d3d0cb;
 }
-
-.footer--icons li a:hover,
-.footer--icons li a:active {
-    color: #ffcb97;
+ .footer--icons li a:hover, .footer--icons li a:active {
+     color: #ffcb97;
 }
-
-.footer-container p {
-    font-size: 0.6rem;
-    color: #d3d0cb;
+ .footer-container p {
+     font-size: 0.6rem;
+     color: #d3d0cb;
 }
 
 /*----------------------- MEDIA QUERIES */
 
-@media screen and (min-width: 1200px) {
-    .btn--prices {
-        width: 50%;
-    } 
-    .footer--icons li {
-        font-size: 2.4rem;
-        margin: 0 5rem;
+ @media screen and (min-width: 1200px) {
+     .btn--prices {
+         width: 50%;
+    }
+     .footer--icons li {
+         font-size: 2.4rem;
+         margin: 0 5rem;
     }
 }
-
-@media screen and (min-width: 992px) {
-
-    .logo--text {
-        font-size: 1.8rem;
+ @media screen and (min-width: 992px) {
+     .logo--text {
+         font-size: 1.8rem;
     }
-
-    .about--step {
-        padding: 2rem 4rem;
+     .about--step {
+         padding: 2rem 4rem;
     }
-
-    #about, #prices {
-        padding: 1rem 3rem;
+     #about, #prices {
+         padding: 1rem 3rem;
     }
-
-    .about--icon {
-        font-size: 5rem;
+     .about--icon {
+         font-size: 5rem;
     }
-
-    .about--step p, .testimonial--text {
-        font-size: 1.2rem;
+     .about--step p, .testimonial--text {
+         font-size: 1.2rem;
     }
-
-    .contact-container {
-        width: 60%;
-    }  
+     .contact-container {
+         width: 60%;
+    }
 }
-
-@media screen and (min-width: 576px) {
-	.hero--text {
-        font-size: 3.4rem;
-	    margin-bottom: 4rem;
-	}
-
-    .navbar {
-        padding: 0 1.8rem;
+ @media screen and (min-width: 576px) {
+     .hero--text {
+         font-size: 3.4rem;
+         margin-bottom: 4rem;
     }
-    
-    .hero--small {
-        font-size: 1rem;
+     .navbar {
+         padding: 0 1.8rem;
     }
-    
-    .btn--signup, .btn--more {
-        width: 14rem;
-	    padding: 1rem;
-	    margin: 1rem 2rem;
-        font-size: 1.2rem;
+     .hero--small {
+         font-size: 1rem;
     }
-
-    .section--heading {
-        font-size: 3rem;
-        margin-top: 1.8rem;
+     .btn--signup, .btn--more {
+         width: 14rem;
+         padding: 1rem;
+         margin: 1rem 2rem;
+         font-size: 1.2rem;
     }
-
-    .h--r {
-        width: 10rem;
+     .section--heading {
+         font-size: 3rem;
+         margin-top: 1.8rem;
     }
-
-    .btn--form {
-        width: 14rem;
-    }  
-
+     .h--r {
+         width: 10rem;
+    }
+     .btn--form {
+         width: 14rem;
+    }
 }
+ 

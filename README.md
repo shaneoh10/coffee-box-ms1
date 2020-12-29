@@ -196,3 +196,18 @@ Alternatively the project can be cloned by entering `git clone git@github.com:sh
 More information on cloning the project can be found [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 ### Credits
+
+#### Code
+* Navbar hamburger collapse on menu item click was found on [this post](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/) on mdbootstrap.com
+* Navbar hide on scroll down and appear on scroll up was inspired by [this post](https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp) on w3schools.com
+* The bootstrap modal was copied from [here](https://getbootstrap.com/docs/4.5/components/modal/) and edited to suit my project
+* The contact form was copied from [here](https://getbootstrap.com/docs/4.5/components/forms/) and edited to suit my project
+* The use of REM units for responsive sizing was inspired by [this article](https://engageinteractive.co.uk/blog/em-vs-rem-vs-px) by Simon Willans
+
+#### Photos
+
+All photos were sourced from [Unsplash.](https://unsplash.com/) Photos and artist links below:
+* [Janko Ferlic - @itfeelslikefilm](https://unsplash.com/photos/h9Iq22JJlGk)
+* [Mike Kenneally - @asthetik](https://unsplash.com/photos/TD4DBagg2wE)
+* [Sigmund - @sigmund](https://unsplash.com/photos/jzz_3jWMzHA)
+* [Ben den Engelsen - @benjeeeman](https://unsplash.com/photos/YUu9UAcOKZ4)
