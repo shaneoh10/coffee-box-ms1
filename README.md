@@ -180,3 +180,15 @@ Although I had already tested the website for various device sizes on Chrome Dev
 2. Individually checked each icon to verify that when clicked it brings the user to the correct social media website
 
 ### Deployment
+
+The Coffee Box website was deployed on GitHub using the following setup:
+1. Using Git I pushed my committed code to my GitHub repository at [https://github.com/shaneoh10/coffee-box-ms1](https://github.com/shaneoh10/coffee-box-ms1)
+2. Opened the settings tab in the repository
+3. Scrolled down to "Github Pages" section in settings
+4. Selected "main" branch and "root" folder and pressed "Save" to deploy project to GitHub pages. Website is now live.
+5. Clicked on the new link provided to view the live website. [https://shaneoh10.github.io/coffee-box-ms1/](https://shaneoh10.github.io/coffee-box-ms1/)
+6. The live website is automatically updated every time a new commit is pushed to the project repository
+
+The project can be downloaded as a .zip file by clicking on the "Code" button in the project repository and then clicking "Download ZIP". Alternatively the project can be cloned by entering `git clone git@github.com:shaneoh10/coffee-box-ms1.git` in the terminal. More information on cloning the project can be found [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+
+### Credits
