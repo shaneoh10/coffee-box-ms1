@@ -213,6 +213,7 @@ More information on cloning the project can be found [here](https://docs.github.
 * Navbar hide on scroll down and appear on scroll up - code credit to [this post](https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp) on w3schools.com
 * The bootstrap modal was copied from [here](https://getbootstrap.com/docs/4.5/components/modal/) and edited to suit my project
 * The contact form was copied from [here](https://getbootstrap.com/docs/4.5/components/forms/) and edited to suit my project
+* The bootstrap navbar was copied from [here](https://getbootstrap.com/docs/4.5/components/navbar/) and edited to suit my project
 * The use of REM units for responsive sizing was inspired by [this article](https://engageinteractive.co.uk/blog/em-vs-rem-vs-px) by Simon Willans
 * The use of the Sign Up Modal was inspired by the Code Institute's Whiskey Drop walkthrough project as part of the User Centric Front End Development module
 * Credit to Code Institute's Whiskey Drop walkthrough project for the HTML & CSS I used for the opaque overlay on the home page
