@@ -183,7 +183,7 @@ Although I had already tested the website for various device sizes on Chrome Dev
 #### I want to be easily directed to any social media channels to connect with Coffee Box to stay up to date with any offers or other viewing material
 
 1. All social media icons are clearly displayed on the footer of the website
-2. Individually checked each icon to verify that when clicked it brings the user to the correct social media website
+2. I Individually checked each icon to verify that when clicked it brings the user to the correct social media website
 
 ### Deployment
 
@@ -191,11 +191,11 @@ The Coffee Box website was deployed on GitHub using the following setup:
 1. Throughout the project I saved all my code to Git by typing `git add .` into the terminal.
 2. To commit the code to git I used the command  `git commit -m "add comment here" -a `
 3. Using Git I then used the command `git push` to push all the committed code to my GitHub repository at [https://github.com/shaneoh10/coffee-box-ms1](https://github.com/shaneoh10/coffee-box-ms1)
-4. Opened the settings tab in the repository
-5. Scrolled down to "Github Pages" section in settings
+4. Opened the settings tab in the repository.s
+5. Scrolled down to "Github Pages" section in settings.
 6. Selected "main" branch and "root" folder and pressed "Save" to deploy project to GitHub pages. Website is now live.
 7. Clicked on the new link provided to view the live website. [https://shaneoh10.github.io/coffee-box-ms1/](https://shaneoh10.github.io/coffee-box-ms1/)
-8. The live website is automatically updated every time a new commit is pushed to the project repository
+8. The live website is automatically updated every time a new commit is pushed to the project repository.
 
 The project can be downloaded as a .zip file by clicking on the "Code" button in the project repository and then clicking "Download ZIP". 
 
