@@ -189,14 +189,16 @@ Although I had already tested the website for various device sizes on Chrome Dev
 ### Deployment
 
 The Coffee Box website was deployed on GitHub using the following setup:
-1. Throughout the project I saved all my code to Git by typing `git add .` into the terminal.
-2. To commit the code to git I used the command  `git commit -m "add comment here" -a `
-3. Using Git I then used the command `git push` to push all the committed code to my GitHub repository at [https://github.com/shaneoh10/coffee-box-ms1](https://github.com/shaneoh10/coffee-box-ms1)
-4. Opened the settings tab in the repository.s
-5. Scrolled down to "Github Pages" section in settings.
-6. Selected "main" branch and "root" folder and pressed "Save" to deploy project to GitHub pages. Website is now live.
-7. Clicked on the new link provided to view the live website. [https://shaneoh10.github.io/coffee-box-ms1/](https://shaneoh10.github.io/coffee-box-ms1/)
-8. The live website is automatically updated every time a new commit is pushed to the project repository.
+1. To set up the initial repository I used the [Code Institute Template.](https://github.com/Code-Institute-Org/gitpod-full-template) I clicked on "use this template" and entered coffee-box-ms1 as the repository name and set it to public.
+2. In the new coffee box repository I clicked on the GitPod button to open the project up as a new GitPod workspace.
+3. Throughout the project I saved all my code to Git by typing `git add .` into the terminal in the GitPod workspace.
+4. To commit the code to git I used the command  `git commit -m "add comment here" -a `
+5. Using Git I then used the command `git push` to push all the committed code to my GitHub repository at [https://github.com/shaneoh10/coffee-box-ms1](https://github.com/shaneoh10/coffee-box-ms1)
+6. Opened the settings tab in the repository.
+7. Scrolled down to "Github Pages" section in settings.
+8. Selected "main" branch and "root" folder and pressed "Save" to deploy project to GitHub pages. Website is now live.
+9. Clicked on the new link provided to view the live website. [https://shaneoh10.github.io/coffee-box-ms1/](https://shaneoh10.github.io/coffee-box-ms1/)
+10. The live website is automatically updated every time a new commit is pushed to the project repository.
 
 The project can be downloaded as a .zip file by clicking on the "Code" button in the project repository and then clicking "Download ZIP". 
 
