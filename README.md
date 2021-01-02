@@ -172,7 +172,7 @@ Although I had already tested the website for various device sizes on Chrome Dev
 2. User can instantly go to a section of the page by clicking that section on the navbar
 3. Navbar re-appears when the user scrolls up at any point on the page to allow user the option to travel to the desired section
 
-#### I want to view testimonials from staisfied customers to authenticate the services of Coffee Box
+#### I want to view testimonials from satisfied customers to authenticate the services of Coffee Box
 
 1. Go to Home page
 2. Scroll down through website content and below the About section the testimonials are visible
