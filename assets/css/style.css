@@ -21,6 +21,7 @@ html, body {
 /*----------------------- REUSABLE */
 
  .opaque-overlay {
+     /* Credit to Code Institute whiskey drop walkthrough project */
      position: absolute;
      top: 0;
      left: 0;
