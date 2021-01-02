@@ -88,6 +88,7 @@ I have chosen JetBrains Mono as the main font throughout the website and Dancing
 #### Contact Section: 
 * A Bootstrap contact form with space for name, email, message, and option to subscribe to newsletter. There is a button to send placed at the bottom of the form.
 * The name and email fields are required, and the email will have to be the correct format to be submitted.
+* The form does not have any function at this stage
 
 #### Footer:
 * The footer includes social media links to Facebook, Instagram, LinkedIn and Twitter, and a copyright notice. I decided to have minimal content in the footer so that the users’ attention would not be drawn away from the main page content.
@@ -161,7 +162,7 @@ Although I had already tested the website for various device sizes on Chrome Dev
 1. Scroll to or click on Contact on the navbar to go to the Contact section
 2. User can now view a contact form
 3. User can fill out form with name, email, message and checkbox if they want to subscribe to newsletter
-4. Click submit to send form, form will only send if Name field is filled and email is in correct format
+4. Click submit to send form, form will only send if Name field is filled and email is in correct format (form not functional but browser prompts you to enter required details)
 5. Subscribe to newsletter is not required, it is entirely up to the user
 
 ![Contact Section](assets/documents/contact.png)
