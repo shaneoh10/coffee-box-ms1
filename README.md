@@ -124,7 +124,13 @@ I ran validator tests at the end of the project with the W3C Validator for both 
 
 ![W3C Validator](assets/documents/w3c-validator.png)
 
-I investigated and corrected these errors and on the final test there were no errors for HTML or CSS.
+I investigated and corrected these errors and on the final test there were no errors found for HTML.
+
+When testing my CSS I came across the following errors:
+
+![CSS Validator](assets/documents/CSS-validator.png)
+
+These errors are in the Bootstrap CDN and are therefore out of my control. I ran my own CSS through the tester via direct input and no errors were found.
 
 ### Web Browser and Device Testing
 
@@ -200,8 +206,8 @@ More information on cloning the project can be found [here](https://docs.github.
 ### Credits
 
 #### Code
-* Navbar hamburger collapse on menu item click was found on [this post](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/) on mdbootstrap.com
-* Navbar hide on scroll down and appear on scroll up was inspired by [this post](https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp) on w3schools.com
+* Navbar hamburger icon collapse on menu item click - code credit to [this post](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/) on mdbootstrap.com
+* Navbar hide on scroll down and appear on scroll up - code credit to [this post](https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp) on w3schools.com
 * The bootstrap modal was copied from [here](https://getbootstrap.com/docs/4.5/components/modal/) and edited to suit my project
 * The contact form was copied from [here](https://getbootstrap.com/docs/4.5/components/forms/) and edited to suit my project
 * The use of REM units for responsive sizing was inspired by [this article](https://engageinteractive.co.uk/blog/em-vs-rem-vs-px) by Simon Willans
@@ -214,6 +220,10 @@ All photos were sourced from [Unsplash.](https://unsplash.com/) Photos and artis
 * [Mike Kenneally - @asthetik](https://unsplash.com/photos/TD4DBagg2wE)
 * [Sigmund - @sigmund](https://unsplash.com/photos/jzz_3jWMzHA)
 * [Ben den Engelsen - @benjeeeman](https://unsplash.com/photos/YUu9UAcOKZ4)
+
+#### Content 
+
+All other written content throughout the website is entirely fictional and was written by myself.
 
 ### Acknowledgements 
 
