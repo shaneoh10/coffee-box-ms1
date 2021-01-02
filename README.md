@@ -83,7 +83,7 @@ I have chosen JetBrains Mono as the main font throughout the website and Dancing
 * This section contains 2 testimonials from satisfied customers explaining how they love the service. The purpose of this section is to give users confidence in Coffee Box as a company and in the service it provides.
 
 #### Prices 
-* The prices section is where users can see the various subscription services on offer. Each subscription option contains the price and the amount of coffee received per month so that users can decide based on their coffee requirement and budget. The sign-up buttons open a bootstrap modal which does not have any function at this stage.
+* The prices section is where users can see the various subscription services on offer. Each subscription option contains the price and the amount of coffee received per month so that users can decide based on their coffee requirement and budget. The sign-up buttons open a bootstrap modal prompting users to sign up, but this modal does not have any function at this stage. The modal can be closed by clicking the close button or by clicking anywhere outside the modal.
 
 #### Contact Section: 
 * A Bootstrap contact form with space for name, email, message, and option to subscribe to newsletter. There is a button to send placed at the bottom of the form.
