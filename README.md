@@ -182,12 +182,14 @@ Although I had already tested the website for various device sizes on Chrome Dev
 ### Deployment
 
 The Coffee Box website was deployed on GitHub using the following setup:
-1. Using Git I pushed my committed code to my GitHub repository at [https://github.com/shaneoh10/coffee-box-ms1](https://github.com/shaneoh10/coffee-box-ms1)
-2. Opened the settings tab in the repository
-3. Scrolled down to "Github Pages" section in settings
-4. Selected "main" branch and "root" folder and pressed "Save" to deploy project to GitHub pages. Website is now live.
-5. Clicked on the new link provided to view the live website. [https://shaneoh10.github.io/coffee-box-ms1/](https://shaneoh10.github.io/coffee-box-ms1/)
-6. The live website is automatically updated every time a new commit is pushed to the project repository
+1. Throughout the project I saved all my code to Git by typing `git add .` into the terminal.
+2. To commit the code to git I used the command  `git commit -m "add comment here" -a `
+3. Using Git I then used the command `git push` to push all the committed code to my GitHub repository at [https://github.com/shaneoh10/coffee-box-ms1](https://github.com/shaneoh10/coffee-box-ms1)
+4. Opened the settings tab in the repository
+5. Scrolled down to "Github Pages" section in settings
+6. Selected "main" branch and "root" folder and pressed "Save" to deploy project to GitHub pages. Website is now live.
+7. Clicked on the new link provided to view the live website. [https://shaneoh10.github.io/coffee-box-ms1/](https://shaneoh10.github.io/coffee-box-ms1/)
+8. The live website is automatically updated every time a new commit is pushed to the project repository
 
 The project can be downloaded as a .zip file by clicking on the "Code" button in the project repository and then clicking "Download ZIP". 
 
@@ -203,6 +205,7 @@ More information on cloning the project can be found [here](https://docs.github.
 * The bootstrap modal was copied from [here](https://getbootstrap.com/docs/4.5/components/modal/) and edited to suit my project
 * The contact form was copied from [here](https://getbootstrap.com/docs/4.5/components/forms/) and edited to suit my project
 * The use of REM units for responsive sizing was inspired by [this article](https://engageinteractive.co.uk/blog/em-vs-rem-vs-px) by Simon Willans
+* The use of the Sign Up Modal was inspired by the Code Institute's Whiskey Drop walkthrough project as part of the User Centric Front End Development module
 
 #### Photos
 
@@ -211,3 +214,7 @@ All photos were sourced from [Unsplash.](https://unsplash.com/) Photos and artis
 * [Mike Kenneally - @asthetik](https://unsplash.com/photos/TD4DBagg2wE)
 * [Sigmund - @sigmund](https://unsplash.com/photos/jzz_3jWMzHA)
 * [Ben den Engelsen - @benjeeeman](https://unsplash.com/photos/YUu9UAcOKZ4)
+
+### Acknowledgements 
+
+I would like to thank my mentor Spencer Barriball for his help and guidance throughout the project. I would also like to thank Code Institute and the Slack community for providing me with ideas and inspiration on to how to approach the project.
